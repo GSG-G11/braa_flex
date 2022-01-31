@@ -6,24 +6,57 @@
 
 .header {
   background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  align-content: center;
+  height: 80px;
 }
 .menu {
   border: 1px solid white;
   color: white;
+height: 60px;
+width: 90px;
+display: flex;
+align-items:center;
+justify-content: center;
 }
 
 .main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 600px;
+  align-items:center;
+  align-content: center;
 }
 .article {
   background-color: lightgray;
+  height: 400px;
+  width: 200px;
+  display: flex;
+  justify-content:center;
+  align-content: center;
+  
+
 }
 .article-title {
   background-color: gray;
+  height: 20%;
+  width: 200px;
+  align-items:flex-start;
 }
 .footer {
   background-color: black;
+  display: flex;
+  height: 80px;
+  justify-content: space-around;
+  align-items:center;
+  align-content: center;
 }
 .footer-item {
   color: white;
   border: 1px solid white;
+  width: 400px;
+  height: 30px;
 }
